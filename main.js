@@ -17,6 +17,8 @@ const emga = 'https://emga.turnpages.com/catalogus/en/index_html5.html?init=init
 const saro = 'https://www.dropbox.com/sh/1lb3549kukl6xjp/AABrp_UA6A4ZQaCrPuePPOKWa/Catalogue%2036%20-%20English?dl=0&preview=Saro+Katalog+Nr+36+GB_V6_04.05.2022.pdf&subfolder_nav_tracking=1';
 const polgast = "https://polgast.com.pl/catalog_pl.pdf";
 const vermes = 'https://www.yumpu.com/en/embed/view/HsSqE8uitRVXxoJn'
+const veba = 'https://veba.nl/wp-content/uploads/2022/08/VEBA_CATALOGUE_2022.pdf'
+const veld = 'https://www.docdroid.net/SqBlGPw/assortimentsboek-koel-en-vriesmeubelen-2022-2023-veld-koeltechniek-pdf'
 
 
 function catalogName() {
@@ -32,9 +34,6 @@ function catalogName() {
                     break;
                 case 'bartscher':
                     window.open(bartscher, '_blank');
-                    break;
-                case 'casselin':
-                    window.open(casselin, '_blank');
                     break;
                 case 'combisteel':
                     window.open(combisteel, '_blank');
@@ -56,6 +55,9 @@ function catalogName() {
                     break;
                 case 'vermes':
                     window.open(vermes, '_blank');
+                    break;
+                    case 'veba':
+                    window.open(veba, '_blank');
                     break;
                 default:
             }
