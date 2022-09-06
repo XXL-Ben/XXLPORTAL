@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(52, 52, 52);
+}
+
+#header {
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.catalog {
+    background-color: rgb(126, 126, 126);
+    display: inline-block;
+    margin: 20px;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40%;
+    font-size: 30px;
+}
